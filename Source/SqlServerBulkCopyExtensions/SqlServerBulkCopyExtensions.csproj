@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>Bruno Laurinec</Authors>
+    <Version>0.0.1</Version>
+    <Description>Extension to the SqlBulkCopy class allowing automatic identity column value retrieval</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Bruno\source\repos\SqlBulkCopyExtended\SqlServerBulkCopyExtensions\SqlServerBulkCopyExtensions.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
